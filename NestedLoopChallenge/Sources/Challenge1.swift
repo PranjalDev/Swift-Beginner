@@ -1,5 +1,7 @@
 import Foundation
 
+// print function
+
 func printPyramid(int: Int) {
     for i in 1...int {
         var str = ""
