@@ -1,0 +1,6 @@
+version: "Swift version 5.3-dev (LLVM b87e6c6a2b, Swift 6446e640ec)"
+options: "a6810a3f9240fd5f9b1f129020f2bb5a"
+build_time: [1602164707, 888157119]
+inputs:
+  "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/Sources/Challenge1.swift": [1602144392, 487487000]
+  "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/Sources/main.swift": [1602164707, 249273165]

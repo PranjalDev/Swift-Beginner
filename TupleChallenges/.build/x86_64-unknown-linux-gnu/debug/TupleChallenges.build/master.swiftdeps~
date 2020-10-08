@@ -1,0 +1,7 @@
+version: "Swift version 5.3-dev (LLVM b87e6c6a2b, Swift 6446e640ec)"
+options: "63dc681936a64f4b41b6d1a801581a3e"
+build_time: [1602164086, 621708041]
+inputs:
+  "/home/dominator/Desktop/Swift Beginner/TupleChallenges/Sources/Challenge2.swift": !dirty [1602100298, 481116000]
+  "/home/dominator/Desktop/Swift Beginner/TupleChallenges/Sources/Challenges1.swift": !dirty [1602099708, 777868000]
+  "/home/dominator/Desktop/Swift Beginner/TupleChallenges/Sources/main.swift": !dirty [1602164035, 806119374]

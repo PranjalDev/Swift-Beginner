@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/dominator/Desktop/Swift Beginner/ArrayChallenges/.build/x86_64-unknown-linux-gnu/debug/ArrayChallenges.build/master.swiftdeps"
+  },
+  "/home/dominator/Desktop/Swift Beginner/ArrayChallenges/Sources/main.swift": {
+    "dependencies": "/home/dominator/Desktop/Swift Beginner/ArrayChallenges/.build/x86_64-unknown-linux-gnu/debug/ArrayChallenges.build/main.d",
+    "object": "/home/dominator/Desktop/Swift Beginner/ArrayChallenges/.build/x86_64-unknown-linux-gnu/debug/ArrayChallenges.build/main.swift.o",
+    "swiftmodule": "/home/dominator/Desktop/Swift Beginner/ArrayChallenges/.build/x86_64-unknown-linux-gnu/debug/ArrayChallenges.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/dominator/Desktop/Swift Beginner/ArrayChallenges/.build/x86_64-unknown-linux-gnu/debug/ArrayChallenges.build/main.swiftdeps"
+  }
+}

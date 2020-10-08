@@ -1,0 +1,30 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "checkTeenager"
+provides-nominal:
+provides-member:
+depends-top-level:
+- !private "&&"
+- !private "<="
+- !private ">="
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "StringLiteralType"
+- "checkTeenager"
+- !private "print"
+depends-member:
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "b7e895c5fbcc24f65644467929fa2b15"

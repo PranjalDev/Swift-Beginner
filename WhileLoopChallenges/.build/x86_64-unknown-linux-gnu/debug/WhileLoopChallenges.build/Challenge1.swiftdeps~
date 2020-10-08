@@ -1,0 +1,22 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "count"
+provides-nominal:
+provides-member:
+depends-top-level:
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "count"
+depends-member:
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+depends-nominal:
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "49293352082c80278ba738ac87f0799f"

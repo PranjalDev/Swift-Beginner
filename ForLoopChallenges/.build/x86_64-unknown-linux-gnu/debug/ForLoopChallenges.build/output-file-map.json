@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/ForLoopChallenges.build/master.swiftdeps"
+  },
+  "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/Sources/Challenge1.swift": {
+    "dependencies": "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/ForLoopChallenges.build/Challenge1.d",
+    "object": "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/ForLoopChallenges.build/Challenge1.swift.o",
+    "swiftmodule": "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/ForLoopChallenges.build/Challenge1~partial.swiftmodule",
+    "swift-dependencies": "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/ForLoopChallenges.build/Challenge1.swiftdeps"
+  },
+  "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/Sources/main.swift": {
+    "dependencies": "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/ForLoopChallenges.build/main.d",
+    "object": "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/ForLoopChallenges.build/main.swift.o",
+    "swiftmodule": "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/ForLoopChallenges.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/dominator/Desktop/Swift Beginner/ForLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/ForLoopChallenges.build/main.swiftdeps"
+  }
+}

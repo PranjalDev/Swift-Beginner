@@ -1,0 +1,61 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "WhileLoopChallenges-debug.exe": ["<WhileLoopChallenges-debug.exe>"]
+  "WhileLoopChallenges-debug.module": ["<WhileLoopChallenges-debug.module>"]
+  "main": ["<WhileLoopChallenges-debug.exe>","<WhileLoopChallenges-debug.module>"]
+  "test": ["<WhileLoopChallenges-debug.exe>","<WhileLoopChallenges-debug.module>"]
+default: "main"
+nodes:
+  "/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Sources/":
+    is-directory-structure: true
+commands:
+  "/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/WhileLoopChallenges.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.swiftmodule"]
+    outputs: ["/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/WhileLoopChallenges.swiftmodule.o"]
+    description: "Wrapping AST for WhileLoopChallenges for debugging"
+    args: ["/home/dominator/swift/swift-dev/usr/bin/swiftc","-modulewrap","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.swiftmodule","-o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/WhileLoopChallenges.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "<WhileLoopChallenges-debug.exe>":
+    tool: phony
+    inputs: ["/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges"]
+    outputs: ["<WhileLoopChallenges-debug.exe>"]
+
+  "<WhileLoopChallenges-debug.module>":
+    tool: phony
+    inputs: ["/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/Challenge1.swift.o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/Challenge2DiceSimulator.swift.o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/main.swift.o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.swiftmodule"]
+    outputs: ["<WhileLoopChallenges-debug.module>"]
+
+  "C.WhileLoopChallenges-debug.exe":
+    tool: shell
+    inputs: ["/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/Challenge1.swift.o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/Challenge2DiceSimulator.swift.o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/WhileLoopChallenges.swiftmodule.o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/main.swift.o"]
+    outputs: ["/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges"]
+    description: "Linking ./.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges"
+    args: ["/home/dominator/swift/swift-dev/usr/bin/swiftc","-L","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug","-o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges","-module-name","WhileLoopChallenges","-emit-executable","-Xlinker","-rpath=$ORIGIN","@/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.product/Objects.LinkFileList","-target","x86_64-unknown-linux-gnu","-L","/home/dominator/swift/swift-dev/usr/lib"]
+
+  "C.WhileLoopChallenges-debug.module":
+    tool: swift-compiler
+    inputs: ["/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Sources/Challenge1.swift","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Sources/Challenge2DiceSimulator.swift","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Sources/main.swift"]
+    outputs: ["/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/Challenge1.swift.o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/Challenge2DiceSimulator.swift.o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/main.swift.o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.swiftmodule"]
+    executable: "/home/dominator/swift/swift-dev/usr/bin/swiftc"
+    module-name: "WhileLoopChallenges"
+    module-output-path: "/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.swiftmodule"
+    import-paths: ["/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug"]
+    temps-path: "/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build"
+    objects: ["/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/Challenge1.swift.o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/Challenge2DiceSimulator.swift.o","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/WhileLoopChallenges.build/main.swift.o"]
+    other-args: ["-target","x86_64-unknown-linux-gnu","-swift-version","4","-enable-batch-mode","-index-store-path","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-g","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Sources/Challenge1.swift","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Sources/Challenge2DiceSimulator.swift","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Sources/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: 4
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Sources/","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Package.swift","/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

@@ -1,0 +1,9 @@
+version: "Swift version 5.3-dev (LLVM b87e6c6a2b, Swift 6446e640ec)"
+options: "e2942bb69c370191461f52b060ef3b31"
+build_time: [1602164873, 518805944]
+inputs:
+  "/home/dominator/Desktop/Swift Beginner/LOGICALOPERATORCHALLENGES/Sources/challenges1.swift": [1602076145, 999276000]
+  "/home/dominator/Desktop/Swift Beginner/LOGICALOPERATORCHALLENGES/Sources/challenges2ternaryoperator.swift": [1602077676, 293420000]
+  "/home/dominator/Desktop/Swift Beginner/LOGICALOPERATORCHALLENGES/Sources/challenges3optionals.swift": [1602098379, 275408000]
+  "/home/dominator/Desktop/Swift Beginner/LOGICALOPERATORCHALLENGES/Sources/challenges4pasrsedInt=int(\"10\").swift": [1602098379, 275408000]
+  "/home/dominator/Desktop/Swift Beginner/LOGICALOPERATORCHALLENGES/Sources/main.swift": [1602164872, 320319108]

@@ -1,0 +1,49 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "printPyramid"
+provides-nominal:
+provides-member:
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..."
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "print"
+- "printPyramid"
+depends-member:
+- !private ["SL", ""]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["SQ", ""]
+- !private ["SH", ""]
+- !private ["Sj", ""]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", "makeIterator"]
+- !private ["Sx", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "SL"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "Sj"
+- !private "ST"
+- !private "Sx"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "323752db1f2287b7f35f03da8f01862e"

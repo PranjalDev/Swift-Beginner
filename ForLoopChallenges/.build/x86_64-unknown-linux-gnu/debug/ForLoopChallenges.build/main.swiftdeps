@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "rangeStart"
+- "randomCount"
+provides-nominal:
+provides-member:
+depends-top-level:
+- "%"
+- "+"
+- "..."
+- "..<"
+- "=="
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "StringLiteralType"
+- "print"
+- "randomCount"
+- "rangeStart"
+depends-member:
+- ["s18AdditiveArithmeticP", ""]
+- ["s18AdditiveArithmeticP", "random"]
+- ["Sz", ""]
+- ["Sz", "random"]
+- ["s7CVarArgP", "random"]
+- ["SL", ""]
+- ["SL", "random"]
+- ["s17CustomReflectableP", "random"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "appendInterpolation"]
+- ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "random"]
+- ["Se", "random"]
+- ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "random"]
+- ["SQ", ""]
+- ["SQ", "random"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "random"]
+- ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s17FixedWidthIntegerP", "random"]
+- ["SH", ""]
+- ["SH", "random"]
+- ["Si", "random"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "random"]
+- ["s10MirrorPathP", "random"]
+- ["Sj", ""]
+- ["Sj", "random"]
+- ["s10SIMDScalarP", "random"]
+- ["ST", "Element"]
+- ["ST", "Iterator"]
+- ["ST", "makeIterator"]
+- ["SZ", "random"]
+- ["s13SignedNumericP", ""]
+- ["s13SignedNumericP", "random"]
+- ["Sx", ""]
+- ["Sx", "random"]
+- ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["s27StringInterpolationProtocolP", "init"]
+- ["s16TextOutputStreamP", "appendInterpolation"]
+- ["s16TextOutputStreamP", "appendLiteral"]
+- ["s30_CustomPlaygroundQuickLookableP", "random"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "random"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "random"]
+- ["s21_ObjectiveCBridgeableP", "random"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "Sz"
+- "s7CVarArgP"
+- "SL"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "Sj"
+- "s10SIMDScalarP"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "s27StringInterpolationProtocolP"
+- "s16TextOutputStreamP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/dominator/swift/swift-dev/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "48565154fd2c35d73644fc4755e0dec2"

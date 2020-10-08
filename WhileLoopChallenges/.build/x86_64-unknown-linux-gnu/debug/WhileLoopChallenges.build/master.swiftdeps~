@@ -1,0 +1,7 @@
+version: "Swift version 5.3-dev (LLVM b87e6c6a2b, Swift 6446e640ec)"
+options: "f63dd54e99945566685ff3d77d2494fc"
+build_time: [1602164274, 367532610]
+inputs:
+  "/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Sources/Challenge1.swift": [1602140990, 459543000]
+  "/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Sources/Challenge2DiceSimulator.swift": [1602142770, 319773000]
+  "/home/dominator/Desktop/Swift Beginner/WhileLoopChallenges/Sources/main.swift": [1602164154, 51348066]

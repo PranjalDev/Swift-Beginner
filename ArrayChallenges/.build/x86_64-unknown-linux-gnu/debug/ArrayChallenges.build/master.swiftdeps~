@@ -1,0 +1,5 @@
+version: "Swift version 5.3-dev (LLVM b87e6c6a2b, Swift 6446e640ec)"
+options: "bfb3d0047c3bb21db3657c6b0f5716ee"
+build_time: [1602162502, 656655435]
+inputs:
+  "/home/dominator/Desktop/Swift Beginner/ArrayChallenges/Sources/main.swift": [1602162501, 992466214]

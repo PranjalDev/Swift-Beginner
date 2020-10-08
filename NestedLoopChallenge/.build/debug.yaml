@@ -1,0 +1,61 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "NestedLoopChallenge-debug.exe": ["<NestedLoopChallenge-debug.exe>"]
+  "NestedLoopChallenge-debug.module": ["<NestedLoopChallenge-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<NestedLoopChallenge-debug.exe>","<NestedLoopChallenge-debug.module>"]
+  "test": ["<NestedLoopChallenge-debug.exe>","<NestedLoopChallenge-debug.module>"]
+default: "main"
+nodes:
+  "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/":
+    is-directory-structure: true
+commands:
+  "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/NestedLoopChallenge.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.swiftmodule"]
+    outputs: ["/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/NestedLoopChallenge.swiftmodule.o"]
+    description: "Wrapping AST for NestedLoopChallenge for debugging"
+    args: ["/home/dominator/swift/swift-dev/usr/bin/swiftc","-modulewrap","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.swiftmodule","-o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/NestedLoopChallenge.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "<NestedLoopChallenge-debug.exe>":
+    tool: phony
+    inputs: ["/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge"]
+    outputs: ["<NestedLoopChallenge-debug.exe>"]
+
+  "<NestedLoopChallenge-debug.module>":
+    tool: phony
+    inputs: ["/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge1.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge2.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge3.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge4.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/main.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.swiftmodule"]
+    outputs: ["<NestedLoopChallenge-debug.module>"]
+
+  "C.NestedLoopChallenge-debug.exe":
+    tool: shell
+    inputs: ["/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge1.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge2.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge3.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge4.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/NestedLoopChallenge.swiftmodule.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/main.swift.o"]
+    outputs: ["/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge"]
+    description: "Linking ./.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge"
+    args: ["/home/dominator/swift/swift-dev/usr/bin/swiftc","-L","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug","-o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge","-module-name","NestedLoopChallenge","-emit-executable","-Xlinker","-rpath=$ORIGIN","@/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.product/Objects.LinkFileList","-target","x86_64-unknown-linux-gnu","-L","/home/dominator/swift/swift-dev/usr/lib"]
+
+  "C.NestedLoopChallenge-debug.module":
+    tool: swift-compiler
+    inputs: ["/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge1.swift","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge2.swift","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge3.swift","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge4.swift","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/main.swift"]
+    outputs: ["/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge1.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge2.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge3.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge4.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/main.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.swiftmodule"]
+    executable: "/home/dominator/swift/swift-dev/usr/bin/swiftc"
+    module-name: "NestedLoopChallenge"
+    module-output-path: "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.swiftmodule"
+    import-paths: ["/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug"]
+    temps-path: "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build"
+    objects: ["/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge1.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge2.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge3.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge4.swift.o","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/main.swift.o"]
+    other-args: ["-target","x86_64-unknown-linux-gnu","-swift-version","4","-enable-batch-mode","-index-store-path","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-g","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge1.swift","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge2.swift","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge3.swift","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge4.swift","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: 4
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Package.swift","/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

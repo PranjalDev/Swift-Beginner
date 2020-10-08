@@ -1,0 +1,14 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftTargetMap" : {
+    "C.LOGICALOPERATORCHALLENGES-debug.module" : "LOGICALOPERATORCHALLENGES"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftTargetMap" : {
+    "C.ForLoopChallenges-debug.module" : "ForLoopChallenges"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

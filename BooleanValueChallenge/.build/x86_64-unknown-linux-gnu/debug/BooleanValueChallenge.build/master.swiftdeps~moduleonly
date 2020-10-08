@@ -1,0 +1,7 @@
+version: "Swift version 5.3-dev (LLVM b87e6c6a2b, Swift 6446e640ec)"
+options: "cc9799fac9f114f819b9856e7aff8ede"
+build_time: [1602162652, 156065753]
+inputs:
+  "/home/dominator/Desktop/Swift Beginner/BooleanValueChallenge/Sources/challenge1.swift": [1602070954, 136970000]
+  "/home/dominator/Desktop/Swift Beginner/BooleanValueChallenge/Sources/challenge2.swift": [1602070798, 465546000]
+  "/home/dominator/Desktop/Swift Beginner/BooleanValueChallenge/Sources/main.swift": [1602162651, 489813697]

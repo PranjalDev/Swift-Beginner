@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/master.swiftdeps"
+  },
+  "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge1.swift": {
+    "dependencies": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge1.d",
+    "object": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge1.swift.o",
+    "swiftmodule": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge1~partial.swiftmodule",
+    "swift-dependencies": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge1.swiftdeps"
+  },
+  "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge2.swift": {
+    "dependencies": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge2.d",
+    "object": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge2.swift.o",
+    "swiftmodule": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge2~partial.swiftmodule",
+    "swift-dependencies": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge2.swiftdeps"
+  },
+  "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge3.swift": {
+    "dependencies": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge3.d",
+    "object": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge3.swift.o",
+    "swiftmodule": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge3~partial.swiftmodule",
+    "swift-dependencies": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge3.swiftdeps"
+  },
+  "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge4.swift": {
+    "dependencies": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge4.d",
+    "object": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge4.swift.o",
+    "swiftmodule": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge4~partial.swiftmodule",
+    "swift-dependencies": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/Challenge4.swiftdeps"
+  },
+  "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/main.swift": {
+    "dependencies": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/main.d",
+    "object": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/main.swift.o",
+    "swiftmodule": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/.build/x86_64-unknown-linux-gnu/debug/NestedLoopChallenge.build/main.swiftdeps"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftTargetMap" : {
+    "C.ArrayChallenges-debug.module" : "ArrayChallenges"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

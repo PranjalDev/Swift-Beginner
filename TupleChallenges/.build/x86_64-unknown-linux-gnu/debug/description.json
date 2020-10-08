@@ -1,0 +1,14 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftTargetMap" : {
+    "C.TupleChallenges-debug.module" : "TupleChallenges"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

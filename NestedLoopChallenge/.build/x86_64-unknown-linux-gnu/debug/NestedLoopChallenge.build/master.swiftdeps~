@@ -1,0 +1,9 @@
+version: "Swift version 5.3-dev (LLVM b87e6c6a2b, Swift 6446e640ec)"
+options: "3c7c71651c050363873dba5cd208348d"
+build_time: [1602163951, 1348705]
+inputs:
+  "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge1.swift": !dirty [1602155589, 203188000]
+  "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge2.swift": !dirty [1602154785, 419646000]
+  "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge3.swift": !dirty [1602156402, 172413000]
+  "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/Challenge4.swift": !dirty [1602158428, 644901000]
+  "/home/dominator/Desktop/Swift Beginner/NestedLoopChallenge/Sources/main.swift": !dirty [1602163910, 440065152]
